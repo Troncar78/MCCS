@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+li,a 
+{
+    font-weight: 500;
+    font-size: 12px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    background-color: #242323;
+}
+.logo
+{
+    width: 25%;
+}
+.logo2
+{
+    width: 25%;
+}
+.logo3
+{
+    filter: invert(1);
+    width: 20px;
+}
+.content
+{
+    max-width: 600px;
+    text-align: center;
+    padding: 12px;
+}
+.navliens
+{
+    list-style: none;
+}
+.navliens li
+{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.navliens li a
+{
+    transition: all 0.3s ease 0s;
+}
+.navliens li a:hover
+{
+    color : #0088a9
+}
+.navliens2
+{
+    list-style: none;
+    text-align: center;
+}
+.navliens2 li
+{
+    display: inline-block;
+    padding: 2% 7.3%;
+}
+.navliens2 li a
+{
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 12px;
+    color: #edf0f1;
+}
+.navliens2 li a:hover
+{
+    color : #0088a9
+}
+.footer-container
+{
+    background-color: #242323;
+    padding-bottom: 1rem;
+}
+.footer
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.image 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.navimg
+{
+    list-style: none;
+}
+.navimg li
+{
+    display: inline-block;
+    padding: 20px 20px;
+    margin: 10px 0 0;
+    place-items: center;
+}
+/* .navimg li:hover
+{
+    border: 1px solid #fff;
+    width: 50px;
+    height: 50px;
+} */
+.text1
+{
+    color: #bdbdbd;
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    padding-top: 15px;
+}
+.copy
+{
+    color: #bdbdbd;
+    font-style: normal;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+}
+.copy a
+{
+    color: #bdbdbd;
+    font-size: 10px;
+    text-decoration: underline;
+}
+.part1
+{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-decoration: none;
+    font-weight: normal;
+    color: #edf0f1;
+    background-image: url(Image/plomb.jpg);
+    background-size: 1920px 1300px;
+    text-align: center;
+}
+.part1 p
+{
+    font-size: 1.3rem;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.devis {
+	font-size: 1rem;
+	width: 200px;
+	height: 60px;
+	background-color: #0D5CD4;
+	border-radius: 4px;
+	border : none;
+	outline: none;
+	color : white;
+    cursor: pointer;
+	}
+.logo4
+{
+    width: 64px;
+    margin-left: 35%;
+}
+.logo5
+{
+    width: 64px;
+    margin-left: 30%;
+}
+.logo6
+{
+    max-width: 64px;
+    margin-left: 32%;
+}
+.part2
+{
+    background-color: #f7f8fa;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
+}
+.text-svg
+{
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.undertext-svg
+{
+    color: #808080;
+    text-align: center;
+}
+.copy
+{
+    color: #bdbdbd;
+    font-style: normal;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+}
+.copy a
+{
+    color: #bdbdbd;
+    font-size: 10px;
+    text-decoration: underline;
+}

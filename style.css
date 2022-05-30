@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+li,a 
+{
+    text-decoration: none;
+}
+header
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    background-color: #242323;
+}
+.logo
+{
+    width: 25%;
+}
+.logo2
+{
+    width: 25%;
+}
+.logo3
+{
+    filter: invert(1);
+    width: 20px;
+}
+.logo6
+{
+    width: 5%;
+}
+.qualif
+{
+    display: flex;
+}
+.content
+{
+    max-width: 600px;
+    text-align: center;
+    padding: 12px;
+}
+.navliens
+{
+    list-style: none;
+}
+.navliens li
+{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.navliens li a
+{
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 12px;
+    color: #edf0f1;
+}
+.navliens li a:hover
+{
+    color : #0088a9
+}
+.navliens2
+{
+    list-style: none;
+    text-align: center;
+}
+.navliens2 li
+{
+    display: inline-block;
+    padding: 2% 7.3%;
+}
+.navliens2 li a
+{
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 12px;
+    color: #edf0f1;
+}
+.navliens2 li a:hover
+{
+    color : #0088a9
+}
+.footer-container
+{
+    background-color: #242323;
+    padding-bottom: 4rem;
+}
+.footer
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.image 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.navimg
+{
+    list-style: none;
+}
+.navimg li
+{
+    display: inline-block;
+    padding: 20px 20px;
+    margin: 10px 0 0;
+    place-items: center;
+}
+/* .navimg li:hover
+{
+    border: 1px solid #fff;
+    width: 50px;
+    height: 50px;
+} */
+.text1
+{
+    color: #bdbdbd;
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    padding-top: 15px;
+}
+.copy
+{
+    color: #bdbdbd;
+    font-style: normal;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+}
+.copy a
+{
+    color: #bdbdbd;
+    font-size: 10px;
+    text-decoration: underline;
+}
+.vidint {
+    pointer-events: none;
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+}
+.part2
+{
+    color: #6e6e6e;
+}
+.part2-under
+{
+    margin: 8%;
+}
+.part2 h1
+{
+    color: black;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    padding-bottom: 3%;
+}
+.part2 h2{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.part2 p{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.secteur{
+    color: #6e6e6e;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding-top: 3%;
+}
+.part3
+{   
+    color: #edf0f1;
+    background-color: rgb(155, 152, 152);
+}
+.part3-under
+{
+    margin: 0 8% 0;
+    padding: 10% 0;
+}
+.part3 h1
+{
+    font-size: 4rem;
+    letter-spacing: 3px;
+    padding-bottom: 3%;
+}
+.part3 p{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.part3-service
+{
+    color: #edf0f1;
+    padding-top:8%;
+    display: flex;
+    justify-content: space-around;
+}
+.plomberie{
+    list-style: none;
+    border-radius: 10px;
+    border : none;
+    background-color: #242323;
+    padding: 3% 3%;
+}
+.principale
+{
+    text-align: center;
+    font-weight: 450;
+    font-size: 2.5rem;
+    padding-bottom: 10%;
+}
+.chauffage
+{
+    list-style: none;
+    border-radius: 10px;
+    border : none;
+    background-color: #242323;
+    padding: 3% 3%;
+}
+.specs p
+{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 5% 0;
+}
+.specsimg
+{
+    font-family: 'Sen';
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15%;
+    margin-bottom: 5%;
+}
+.specslogo
+{
+    width : 17%;
+}
+.part5
+{
+    color: white;
+    background-color: rgb(155, 152, 152);
+}
+.part5-under
+{
+    padding: 10% 0;
+    margin: 0 8% 0;
+    display: grid;
+}
+.part5 h2
+{
+    padding-bottom: 2%;
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+.part5 p
+{
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding-bottom: 4%;
+}
+.principaletext
+{
+    text-align: center;
+    font-weight: 450;
+    font-size: 2.5rem;
+    padding-bottom: 2%;
+}
+.form
+{
+    list-style: none;
+    border-radius: 10px;
+    width: 70%;
+    border : none;
+    background-color: #242323;
+    padding: 3% 0;
+    justify-self: center;
+}
+.envoyer
+{
+    font-size: 0.7rem;
+	width: 100px;
+	height: 40px;
+	background-color: #0D5CD4;
+	border-radius: 4px;
+	border : none;
+	outline: none;
+	color : white;
+    cursor: pointer;
+}
+.textform
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.textform2
+{
+    display: flex;
+    flex-direction: column;
+}
+.textform3
+{
+    display: flex;
+    justify-content: center;
+}
+.textform li
+{
+    margin: 2% 13%;
+}
+.textform2 li
+{
+    margin: 2% 13%;
+}
+.file-button
+{
+    background-color: #585858;
+    border-radius: 6px;
+}
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 6px 20px 7px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #0D5CD4;
+    border: 3px solid #0D5CD4;
+    border-radius: 3px;
+}
+.btn2 {
+    position: relative;
+    display: inline-block;
+    padding: 6px 20px 7px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #0D5CD4;
+    border: 15px solid #0D5CD4;
+    border-radius: 3px;
+}
+.upload
+{
+    width: 14px;
+}
+.text-form
+{
+    height: 70%;
+    font-size: 0.9rem;
+}
+
+
